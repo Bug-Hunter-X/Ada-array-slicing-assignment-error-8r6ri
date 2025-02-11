@@ -1,0 +1,2 @@
+# Ada Array Slicing Bug
+This example demonstrates a common error in Ada related to array slicing.  The incorrect code attempts to assign a slice of one array to another array variable. Ada's type system prevents this operation. The correct approach involves a slicing assignment, correctly handling the array type and the slicing bounds.
